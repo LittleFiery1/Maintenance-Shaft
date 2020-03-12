@@ -4,59 +4,59 @@ Output file: Quake_Multiplayer_Map.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          130 faces
-           23 brushes
-            6 entities
-           11 unique texnames
-           45 texinfo
+         2614 faces
+          437 brushes
+           16 entities
+           16 unique texnames
+          163 texinfo
 
 Opened WAD: ../wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           23 brushes
-           39 planes
+           11 brushes
+           21 planes
 ---- CSGFaces ----
-          130 brushfaces
-          103 csgfaces
-          102 mergedfaces
+           66 brushfaces
+           52 csgfaces
+           52 mergedfaces
 ---- SolidBSP ----
-          132 split nodes
-           52 solid leafs
-           81 empty leafs
+           62 split nodes
+           21 solid leafs
+           42 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2472 leaffaces
-         2451 nodefaces
+         2399 leaffaces
+         2399 nodefaces
 ---- Portalize ----
-           81 vis leafs
-           81 vis clusters
-          199 vis portals
+           42 vis leafs
+           42 vis clusters
+           95 vis portals
 ---- FillOutside ----
-           69 outleafs
+           37 outleafs
 ---- MergeAll ----
-           33 mergefaces
+           14 mergefaces
 ---- SolidBSP ----
-           31 split nodes
-           24 solid leafs
-            8 empty leafs
+           22 split nodes
+           18 solid leafs
+            5 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          696 leaffaces
-          696 nodefaces
+          732 leaffaces
+          732 nodefaces
 ---- Portalize ----
-            8 vis leafs
-            8 vis clusters
-           17 vis portals
+            5 vis leafs
+            5 vis clusters
+            8 vis portals
 ---- Tjunc ----
-          172 world edges
-         1650 edge points
-          152 edges added by tjunctions
+          169 world edges
+         1734 edge points
+          192 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -65,20 +65,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote Quake_Multiplayer_Map.bsp
-           71 planes             1420
-          774 vertexes           9288
-           31 nodes               744
-           17 texinfo             680
-          696 faces             13920
-          220 clipnodes          1760
-            9 leafs               252
-          696 marksurfaces       1392
-         2936 surfedges         11744
-         1469 edges              5876
-           11 textures         154168
+          481 planes             9620
+         9995 vertexes         119940
+         1729 nodes             41496
+          139 texinfo            5560
+         8338 faces            166760
+        10516 clipnodes         84128
+         1227 leafs             34356
+         8550 marksurfaces      17100
+        33505 surfedges        134020
+        20831 edges             83324
+           16 textures         193828
               lightdata             0
               visdata               0
-              entdata             137
+              entdata            1371
 
-0.252 seconds elapsed
-Peak memory usage: 4436104 (4.2M)
+0.612 seconds elapsed
+Peak memory usage: 28536224 (27.2M)

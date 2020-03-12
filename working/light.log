@@ -4,12 +4,12 @@ running with 4 threads
 LoadBSPFile: 'Quake_Multiplayer_Map.bsp'
 BSP is version 29
 --- LoadEntities ---
-2 entities read, 0 are lights.
+12 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	696 solid faces
+	732 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -25,7 +25,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing Quake_Multiplayer_Map.bsp as BSP version 29
-0.543 seconds elapsed
+0.522 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
