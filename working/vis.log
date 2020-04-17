@@ -1,17 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 4 threads
 testlevel = 4
-LoadBSPFile: 'Quake_Multiplayer_Map.bsp'
+LoadBSPFile: 'maintainanceshaft.bsp'
 BSP is version 29
-     5 leafs
-     8 portals
+    28 leafs
+    88 portals
 Calculating Base Vis:
-0....1....2....3....4....5....6....7....8....9.
+0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
-0....1....2....3....4....5....6....7....8....9.
-average leafs visible: 4
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 27
 c_noclip: 0
-c_chains: 39
-visdatasize:5  compressed from 5
-Writing Quake_Multiplayer_Map.bsp as BSP version 29
+c_chains: 4712
+visdatasize:112  compressed from 112
+Writing maintainanceshaft.bsp as BSP version 29
   0.1 seconds elapsed
